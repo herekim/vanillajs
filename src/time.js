@@ -30,9 +30,10 @@ const handleGreetMessage = () => {
   else return "evening";
 };
 
-// const handleGreet = () => {
-//   return (greet.innerText = `Good ${handleGreetMessage()}, here.`);
-// };
+const handleGreet = () => {
+  return (greet.innerText = `Good ${handleGreetMessage()}, here.`);
+};
 
+handleClock();
 setInterval(handleClock, 1000);
-// handleGreet();
+handleGreet();
